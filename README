@@ -1,0 +1,22 @@
+My personal OpenEmbedded layer, collection of .bbappends to customize images to my needs
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+layers: meta
+branch: master
+revision: HEAD
+
+URI: git://git.openembedded.net/meta-openembedded
+layers: meta-oe, meta-efl, meta-gnome
+branch: master
+revision: HEAD
+
+URI: http://git.shr-project.org/repo/meta-smartphone.git
+layers: meta-fso, meta-shr
+branch: master
+revision: HEAD
+
+If you want to discuss this layer join us on #openmoko-cdevel on FreeNode IRC network.
+
+Main layer maintainers: Martin 'JaMa' Jansa <Martin.Jansa@gmail.com>
