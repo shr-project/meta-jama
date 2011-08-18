@@ -1,5 +1,8 @@
 DESCRIPTION = "JaMa images extra install"
 
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
+
 inherit task
 
 PR = "r12"
@@ -8,17 +11,21 @@ PACKAGES = "\
   ${PN} \
 "
 
-RDEPENDS_${PN} = "\
-task-jama \
+MISSING = "\
 openmoko-agpsui \
-fso-sounds \
-fsoraw \
 openbmap-logger \
 cellhunter \
-ffalarms \
+shr-theme-neo \
+"
+FAILING = "\
+shr-theme-efenniht \
+"
 #stopwatch \
 #wpa-gui \
 #paroli \
-shr-theme-efenniht \
-shr-theme-neo \
+RDEPENDS_${PN} = "\
+task-jama \
+fso-sounds \
+fsoraw \
+ffalarms \
 "
