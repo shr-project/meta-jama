@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task
 
-PR = "r23"
+PR = "r24"
 
 PACKAGES = "\
   ${PN} \
@@ -32,7 +32,6 @@ FAILING = "\
 emtooth \
 emtooth2 \
 navit \
-subversion \
 midori \
 "
 #shr-settings-addons-illume \
@@ -91,4 +90,5 @@ kernel-module-tun \
 gawk \
 make \
 syslog-ng \
+subversion \
 "
