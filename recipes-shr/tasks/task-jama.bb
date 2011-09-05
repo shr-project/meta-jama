@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task
 
-PR = "r24"
+PR = "r25"
 
 PACKAGES = "\
   ${PN} \
@@ -58,6 +58,7 @@ RDEPENDS_${PN} = "\
 bash \
 screen \
 advancedcaching \
+mcnavi \
 tangogps \
 fuser \
 time \
