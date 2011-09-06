@@ -54,6 +54,7 @@ midori \
 #util-linux-ng \
 #
 #task-shr-apps \
+
 RDEPENDS_${PN} = "\
 bash \
 screen \

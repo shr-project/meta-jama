@@ -23,6 +23,7 @@ shr-theme-efenniht \
 #stopwatch \
 #wpa-gui \
 #paroli \
+
 RDEPENDS_${PN} = "\
 task-jama \
 fso-sounds \
