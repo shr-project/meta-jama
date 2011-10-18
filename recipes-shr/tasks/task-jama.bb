@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task
 
-PR = "r26"
+PR = "r28"
 
 PACKAGES = "\
   ${PN} \
@@ -24,15 +24,12 @@ twm \
 xterm \
 podboy \
 numptyphysics \
-enjoy \
 rtmom \
 elmdentica \
 "
 FAILING = "\
 emtooth \
-emtooth2 \
 navit \
-midori \
 "
 #shr-settings-addons-illume \
 #shr-settings \
@@ -55,7 +52,14 @@ midori \
 #
 #task-shr-apps \
 
+# removed, brings udev
+#gps-utils 
+
 RDEPENDS_${PN} = "\
+enjoy \
+epdfview \
+midori \
+emtooth2 \
 bash \
 screen \
 advancedcaching \
@@ -68,7 +72,6 @@ tcpdump \
 psmisc \
 lsof \
 htop \
-gps-utils \
 findutils \
 coreutils \
 om-neon \
