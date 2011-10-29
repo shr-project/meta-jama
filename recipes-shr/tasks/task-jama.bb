@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task
 
-PR = "r28"
+PR = "r30"
 
 PACKAGES = "\
   ${PN} \
@@ -29,7 +29,6 @@ elmdentica \
 "
 FAILING = "\
 emtooth \
-navit \
 "
 #shr-settings-addons-illume \
 #shr-settings \
@@ -56,6 +55,7 @@ navit \
 #gps-utils 
 
 RDEPENDS_${PN} = "\
+navit \
 enjoy \
 epdfview \
 midori \
@@ -87,7 +87,6 @@ task-cli-tools-debug \
 babiloo-efl \
 xinit \
 xinput-calibrator \
-xserver-nodm-init \
 watchdog \
 spojegui \
 openvpn \
