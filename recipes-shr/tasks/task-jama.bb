@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task
 
-PR = "r31"
+PR = "r33"
 
 PACKAGES = "\
   ${PN} \
@@ -98,6 +98,5 @@ openvpn \
 kernel-module-tun \
 gawk \
 make \
-syslog-ng \
 subversion \
 "
