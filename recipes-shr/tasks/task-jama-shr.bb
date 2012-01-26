@@ -9,6 +9,7 @@ PR = "r13"
 
 PACKAGES = "\
   ${PN} \
+  ${PN}-wip \
 "
 
 MISSING = "\
@@ -30,3 +31,15 @@ fso-sounds \
 fsoraw \
 ffalarms \
 "
+RDEPENDS_${PN}-wip = "\
+jefliks \
+evopedia \
+gwaterpas \
+joe \
+aceofpenguins \
+openmoocow \
+mokomaze \
+mokoeightball \
+"
+#xlogical
+#brickshooter
