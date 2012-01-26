@@ -5,11 +5,10 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task
 
-PR = "r13"
+PR = "r14"
 
 PACKAGES = "\
   ${PN} \
-  ${PN}-wip \
 "
 
 MISSING = "\
@@ -31,15 +30,3 @@ fso-sounds \
 fsoraw \
 ffalarms \
 "
-RDEPENDS_${PN}-wip = "\
-jefliks \
-evopedia \
-gwaterpas \
-joe \
-aceofpenguins \
-openmoocow \
-mokomaze \
-mokoeightball \
-"
-#xlogical
-#brickshooter
