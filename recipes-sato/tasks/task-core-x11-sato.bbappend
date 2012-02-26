@@ -1,1 +1,1 @@
-RDEPENDS_task-core-x11-sato += task-jama
+RDEPENDS_task-core-x11-sato += "task-jama"
