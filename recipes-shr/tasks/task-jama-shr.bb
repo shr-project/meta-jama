@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task allarch
 
-PR = "r14"
+PR = "r15"
 
 PACKAGES = "\
   ${PN} \
@@ -29,4 +29,5 @@ task-jama \
 fso-sounds \
 fsoraw \
 ffalarms \
+ntp-systemd \
 "
