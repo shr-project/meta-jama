@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task allarch
 
-PR = "r33"
+PR = "r34"
 
 PACKAGES = "\
   ${PN} \
@@ -55,6 +55,7 @@ emtooth \
 #gps-utils 
 
 RDEPENDS_${PN} = "\
+rfkill \
 epdfview \
 fbreader \
 enjoy \
