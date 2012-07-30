@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task allarch
 
-PR = "r34"
+PR = "r35"
 
 PACKAGES = "\
   ${PN} \
@@ -26,6 +26,7 @@ podboy \
 numptyphysics \
 rtmom \
 elmdentica \
+elfe \
 "
 FAILING = "\
 emtooth \
