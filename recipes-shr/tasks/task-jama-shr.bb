@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit task allarch
 
-PR = "r18"
+PR = "r19"
 
 PACKAGES = "\
   ${PN} \
@@ -25,6 +25,7 @@ shr-theme-efenniht \
 #paroli \
 
 RDEPENDS_${PN} = "\
+estardict \
 terminology \
 linux-firmware-sd8686 \
 task-jama \
