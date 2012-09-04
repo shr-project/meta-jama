@@ -9,6 +9,7 @@ PR = "r1"
 
 RPROVIDES_${PN} += "task-jama-wip"
 RREPLACES_${PN} += "task-jama-wip"
+RCONFLICTS_${PN} += "task-jama-wip"
 
 PACKAGES = "\
   ${PN} \
