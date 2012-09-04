@@ -5,6 +5,10 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit packagegroup allarch
 
+PR = "r1"
+
+RPROVIDES_${PN} += "task-jama-wip"
+RREPLACES_${PN} += "task-jama-wip"
 
 PACKAGES = "\
   ${PN} \
