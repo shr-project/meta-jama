@@ -3,7 +3,7 @@ DESCRIPTION = "JaMa images extra install"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
-inherit task allarch
+inherit packagegroup allarch
 
 PR = "r35"
 
@@ -17,7 +17,7 @@ aceofpenguins \
 gpsbabel \
 intone-video \
 links-x11 \
-task-cli-tools-python \
+packagegroup-cli-tools-python \
 dillo2 \
 xclock \
 twm \
@@ -47,10 +47,10 @@ emtooth \
 #navit-locale-cs \
 #neote \
 #ventura \
-#task-e-x11 \
+#packagegroup-e-x11 \
 #util-linux-ng \
 #
-#task-shr-apps \
+#packagegroup-shr-apps \
 
 # removed, brings udev
 #gps-utils 
@@ -89,8 +89,8 @@ dosfstools \
 grep \
 powertop \
 tar \
-task-cli-tools \
-task-cli-tools-debug \
+packagegroup-cli-tools \
+packagegroup-cli-tools-debug \
 babiloo-efl \
 xinit \
 xinput-calibrator \

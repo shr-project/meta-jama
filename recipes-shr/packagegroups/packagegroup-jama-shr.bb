@@ -3,7 +3,7 @@ DESCRIPTION = "JaMa images extra install"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
-inherit task allarch
+inherit packagegroup allarch
 
 PR = "r19"
 
@@ -28,7 +28,7 @@ RDEPENDS_${PN} = "\
 estardict \
 terminology \
 linux-firmware-sd8686 \
-task-jama \
+packagegroup-jama \
 fso-sounds \
 fsoraw \
 ffalarms \
