@@ -66,10 +66,8 @@ fbreader \
 enjoy \
 mplayer2 \
 intone \
-navit \
 enjoy \
 epdfview \
-midori \
 emtooth2 \
 bash \
 screen \
