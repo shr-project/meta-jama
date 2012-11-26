@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit packagegroup allarch
 
-PR = "r20"
+PR = "r21"
 
 RPROVIDES_${PN} += "task-jama-shr"
 RREPLACES_${PN} += "task-jama-shr"
@@ -36,5 +36,5 @@ packagegroup-jama \
 fso-sounds \
 fsoraw \
 ffalarms \
-ntp-systemd \
+ntpdate-systemd \
 "
