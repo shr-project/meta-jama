@@ -35,26 +35,26 @@ elfe \
 FAILING = "\
 emtooth \
 "
-#shr-settings-addons-illume \
-#shr-settings \
-#shr-settings-locale-cs \
-#woosh \
-#eglibc-locale-cs \
-#shr-settings-locale-cs \
-#eglibc-locale-cs \
-#shr-settings-locale-cs \
-#tangogps-locale-cs \
-#pisi \
-#orrery \
-#omgps \
-#shr-launcher \
-#navit-locale-cs \
-#neote \
-#ventura \
-#packagegroup-e-x11 \
-#util-linux-ng \
+#shr-settings-addons-illume 
+#shr-settings 
+#shr-settings-locale-cs 
+#woosh 
+#eglibc-locale-cs 
+#shr-settings-locale-cs 
+#eglibc-locale-cs 
+#shr-settings-locale-cs 
+#tangogps-locale-cs 
+#pisi 
+#orrery 
+#omgps 
+#shr-launcher 
+#navit-locale-cs 
+#neote 
+#ventura 
+#packagegroup-e-x11 
+#util-linux-ng 
 #
-#packagegroup-shr-apps \
+#packagegroup-shr-apps 
 
 # removed, brings udev
 #gps-utils 

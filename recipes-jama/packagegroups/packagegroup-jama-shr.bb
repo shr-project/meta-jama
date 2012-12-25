@@ -24,9 +24,6 @@ shr-theme-neo \
 FAILING = "\
 shr-theme-efenniht \
 "
-#stopwatch \
-#wpa-gui \
-#paroli \
 
 RDEPENDS_${PN} = "\
 estardict \
