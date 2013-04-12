@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 inherit packagegroup allarch
 
-PR = "r37"
+PR = "r38"
 
 RPROVIDES_${PN} += "task-jama"
 RREPLACES_${PN} += "task-jama"
@@ -98,8 +98,10 @@ xinput-calibrator \
 watchdog \
 spojegui \
 openvpn \
-kernel-module-tun \
 gawk \
 make \
 subversion \
+"
+RRECOMMENDS_${PN} = "\
+  kernel-module-tun \
 "
