@@ -58,16 +58,15 @@ emtooth \
 
 # removed, brings udev
 #gps-utils 
+#epdfview
 
 RDEPENDS_${PN} = "\
 rfkill \
-epdfview \
 fbreader \
 enjoy \
 mplayer2 \
 intone \
 enjoy \
-epdfview \
 emtooth2 \
 bash \
 screen \
