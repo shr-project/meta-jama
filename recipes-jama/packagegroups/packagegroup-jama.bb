@@ -62,12 +62,12 @@ emtooth \
 
 # removed blacklisted
 #mplayer2
+#intone
 
 RDEPENDS_${PN} = "\
 rfkill \
 fbreader \
 enjoy \
-intone \
 enjoy \
 emtooth2 \
 bash \
