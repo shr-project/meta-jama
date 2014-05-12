@@ -60,11 +60,13 @@ emtooth \
 #gps-utils 
 #epdfview
 
+# removed blacklisted
+#mplayer2
+
 RDEPENDS_${PN} = "\
 rfkill \
 fbreader \
 enjoy \
-mplayer2 \
 intone \
 enjoy \
 emtooth2 \
