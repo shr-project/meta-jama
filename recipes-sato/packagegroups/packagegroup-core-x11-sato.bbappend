@@ -1,1 +1,1 @@
-RDEPENDS_packagegroup-core-x11-sato += "packagegroup-jama"
+RDEPENDS_${PN} += "packagegroup-jama"

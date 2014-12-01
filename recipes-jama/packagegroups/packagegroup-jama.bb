@@ -73,7 +73,6 @@ emtooth2 \
 bash \
 screen \
 advancedcaching \
-mcnavi \
 fuser \
 time \
 sysstat \

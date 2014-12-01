@@ -23,6 +23,7 @@ shr-theme-neo \
 "
 FAILING = "\
 shr-theme-efenniht \
+ffalarms \
 "
 
 RDEPENDS_${PN} = "\
@@ -32,6 +33,7 @@ linux-firmware-sd8686 \
 packagegroup-jama \
 fso-sounds \
 fsoraw \
-ffalarms \
 ntpdate \
+mesa-demos \
+usb-modeswitch-data \
 "
