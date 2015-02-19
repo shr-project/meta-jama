@@ -25,6 +25,9 @@ FAILING = "\
 shr-theme-efenniht \
 ffalarms \
 "
+bindir-clear-conflicts-with-ncurses = "\
+mesa-demos \
+"
 
 RDEPENDS_${PN} = "\
 estardict \
@@ -34,6 +37,5 @@ packagegroup-jama \
 fso-sounds \
 fsoraw \
 ntpdate \
-mesa-demos \
 usb-modeswitch-data \
 "
