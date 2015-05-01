@@ -64,12 +64,14 @@ emtooth \
 #mplayer2
 #intone
 
+# rdepends on bluez4
+# emtooth2
+
 RDEPENDS_${PN} = "\
 rfkill \
 fbreader \
 enjoy \
 enjoy \
-emtooth2 \
 bash \
 screen \
 advancedcaching \
