@@ -67,6 +67,9 @@ emtooth \
 # rdepends on bluez4
 # emtooth2
 
+# rdepends on python-pygtk
+# advancedcaching
+
 RDEPENDS_${PN} = "\
 rfkill \
 fbreader \
@@ -74,7 +77,6 @@ enjoy \
 enjoy \
 bash \
 screen \
-advancedcaching \
 fuser \
 time \
 sysstat \
