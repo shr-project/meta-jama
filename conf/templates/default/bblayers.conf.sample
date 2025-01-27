@@ -1,0 +1,19 @@
+# LAYER_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+LCONF_VERSION = "7"
+
+BBPATH = "${TOPDIR}"
+
+META_RASPBERRYPI_LAYER ?= "##OEROOT##/../meta-raspberrypi"
+META_CLANG_LAYER ?= "##OEROOT##/../meta-clang"
+META_LAYER ?= "##OEROOT##/meta"
+
+BBFILES ?= ""
+BBLAYERS ?= " \
+    ${META_RASPBERRYPI_LAYER} \
+    ${META_CLANG_LAYER} \
+    ${META_LAYER} \
+"
+BBFILE_PRIORITY_raspberrypi:forcevariable = "50"
+BBFILE_PRIORITY_clang-layer:forcevariable = "15"
+BBFILE_PRIORITY_core:forcevariable = "5"
