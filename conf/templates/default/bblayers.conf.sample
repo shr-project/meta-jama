@@ -4,16 +4,19 @@ LCONF_VERSION = "7"
 
 BBPATH = "${TOPDIR}"
 
+META_JAMA_LAYER ?= "##OEROOT##/../meta-jama"
 META_RASPBERRYPI_LAYER ?= "##OEROOT##/../meta-raspberrypi"
 META_CLANG_LAYER ?= "##OEROOT##/../meta-clang"
 META_LAYER ?= "##OEROOT##/meta"
 
 BBFILES ?= ""
 BBLAYERS ?= " \
+    ${META_JAMA_LAYER} \
     ${META_RASPBERRYPI_LAYER} \
     ${META_CLANG_LAYER} \
     ${META_LAYER} \
 "
+BBFILE_PRIORITY_jama-layer:forcevariable = "80"
 BBFILE_PRIORITY_raspberrypi:forcevariable = "50"
 BBFILE_PRIORITY_clang-layer:forcevariable = "15"
 BBFILE_PRIORITY_core:forcevariable = "5"
